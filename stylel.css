@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 7% 7% 7% 7% 3.5% 3.5% 10% 10% 10% 10% 6.5% 6.5% 3% 3% 3% 3%;
+    grid-template-columns: 7% 7% 7% 7% 3% 3% 11% 11% 7% 7% 5% 5% 7% 7% 3% 3%
+    width: 100%;
+    height: 100%;
+    grid-template-areas: 
+     "a a a a b b b b b b b b c c d d"
+     "a a a a b b b b b b b b c c d d"
+     "a a a a e e e e f f f f c c d d"
+     "a a a a e e e e f f f f c c d d"
+     "a a a a e e e e f f f f c c h g"
+     "i i j j j j j j f f f f c c h g"
+     "i i j j j j j j f f f f c c h g"
+     "i i j j j j j j f f f f c c h g"
+     "i i q q q k k k f f f f c c h g"
+     "i i q q q k k k f f f f c c h g"
+     "i i q q q k k k f f f f l l l l"
+     "m m m m m m m m n n n n l l l l"
+     "m m m m m m m m n n n n l l l l"
+     "m m m m m m m m n n n n o o p p"
+     "m m m m m m m m n n n n o o p p"
+     "m m m m m m m m n n n n o o p p";
+}
+
+
+.a {
+    grid-area: a;
+    background-color: red;
+}
+.b {
+    grid-area: b;
+    background-color: rgb(255, 123, 0);
+}
+.c {
+    grid-area: c;
+    background-color: rgb(255, 208, 0);
+}
+.d {
+    grid-area: d;
+    background-color: rgb(157, 255, 0);
+}
+.e {
+    grid-area: e;
+    background-color: rgb(9, 255, 0);
+}
+
+.f {
+    grid-area: f;
+    background-color: rgb(0, 255, 136);
+}
+.g {
+    grid-area: g;
+    background-color: rgb(0, 204, 255);
+}
+.h {
+    grid-area: h;
+    background-color: rgb(0, 174, 255);
+}
+.i {
+    grid-area: i;
+    background-color: rgb(0, 26, 255);
+}
+.j {
+    grid-area: j;
+    background-color: rgb(140, 0, 255);
+}
+.k {
+    grid-area: k;
+    background-color: rgb(212, 0, 255);
+}
+.l {
+    grid-area: l;
+    background-color: rgb(255, 0, 191);
+}
+.m {
+    grid-area: m;
+    background-color: rgb(255, 0, 0);
+}
+.n {
+    grid-area: n;
+    background-color: rgb(219, 152, 152);
+}
+.o {
+    grid-area: o;
+    background-color: rgb(113, 209, 118);
+}
+.p {
+    grid-area: p;
+    background-color: rgb(245, 98, 98);
+}
+.q {
+    grid-area: q;
+    background-color: rgb(129, 22, 22);
+}
